@@ -1,0 +1,9 @@
+{
+  "presets": ["react-native-stage-0/decorator-support"],
+  "plugins": [
+    "transform-flow-strip-types",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread"
+  ]
+}

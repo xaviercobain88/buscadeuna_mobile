@@ -1,0 +1,23 @@
+1) buscadeuna_mobile/node_modules/react-native-scrollable-tab-view/DefaultTabBar.js
+tabs: {
+    height: 50,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    borderWidth: 0,
+    borderTopWidth: 0,//era 1
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderBottomColor: '#ccc',
+  },
+
+
+  2)buscadeuna_mobile/node_modules/react-native-scrollable-tab-view/DefaultTabBar.js
+  getDefaultProps() {
+      return {
+        activeTextColor: 'navy',
+        inactiveTextColor: 'black',
+        underlineColor: 'navy',
+        backgroundColor: null,
+        underlineHeight: 2, //era 4
+      };
+    },

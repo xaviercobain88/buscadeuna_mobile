@@ -1,0 +1,3 @@
+rootProject.name = 'buscadeuna_mobile'
+
+include ':app'

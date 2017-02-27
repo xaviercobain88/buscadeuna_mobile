@@ -1,0 +1,32 @@
+{
+  "name": "buscadeuna_mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "firebase-rx": "0.0.0",
+    "react": "15.2.1",
+    "react-addons-create-fragment": "^15.3.1",
+    "react-native": "0.31.0",
+    "react-native-collapsible": "^0.7.0",
+    "react-native-fbsdk": "^0.3.0",
+    "react-native-image-slider": "^1.0.3",
+    "react-native-loading-spinner-overlay": "^0.3.0",
+    "react-native-menu": "^0.20.1",
+    "react-native-router-flux": "^3.33.2",
+    "react-native-scrollable-tab-view": "^0.5.3",
+    "react-redux": "^4.4.5",
+    "redux-realtime-cqrs": "0.0.21",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "remote-redux-devtools": "^0.4.1",
+    "flow-bin": "^0.30.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4"
+  }
+}
